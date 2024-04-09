@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+head {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #BCD0EE;
+    margin-bottom: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3C3C52;
+    color:#13CBB5;
+}
+
+header h1 {
+    font-size: 8rem;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 4%;
+    color: #3C3C52;
+    background-color: #13CBB5;
+    display:flex;
+    justify-content: center;
+    flex: 0 0 30%;
+}
+
+header nav {
+    display:flex;
+    justify-content: space-around;
+    flex:0 0 100%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display:flex;
+    flex:0 0 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: #13CBB5;
+}
+
+.background {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 7%;
+    background-image: url("../images/bluesquares.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-picture {
+    display: flex;
+    padding-left: 6%;
+    flex: 0 0 30%; 
+    height: 30%;
+}
+
+#subtitle {
+    font-size: 6rem;
+    background-color: #13CBB5;
+    border-color: #3C3C52;
+    display:flex;
+    flex:0 0 40%;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3C3C52;
+}
+
+section{
+    display: flex;
+}
+
+.segment {
+    display:flex;
+    justify-content: space-around;
+    flex:0 0 20%; 
+    font-size: 6rem;
+    color:#3C3C52;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 75%; 
+    font-size: 5rem;
+    padding-bottom: 5%;
+    text-align: justify;
+    color:#3C3C52;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#first-card{
+    flex: 1 0 100%;
+}
+
+/* 
+.card{
+    flex: 1 0 25%;
+} */
+
+#horiseon {
+    height: 20%;
+    width: 75%
+    display: flex;
+    flex: 0 0 75%; 
+    font-size: 6rem;
+    background-image: url("../images/horiseon.jpg");
+    border: 2rem solid #13CBB5;
+    background-position: 25% 75%;
+}
+
+#projectHoriseon { 
+    position: relative;
+    font-size: 8rem;
+    padding-top: 7%;
+    padding-left: 2%;
+    color:#808080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projectDetails{
+    font-size: 4rem;
+    padding-left: 2%;
+    color:#808080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#led-wall {
+    height: 15%;
+    width: 50%
+    display: flex;
+    flex: 0 0 20%; 
+    font-size: 8rem;
+    background-image: url("../images/led-wall.jpg");
+    border: 2rem solid #13CBB5;
+    background-position: 25% 75%;
+}
+
+.projects{
+    font-size: 8rem;
+    padding-top: 60rem;
+    padding-left: 4rem;
+    color:#808080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#calculator {
+    height: 15%;
+    width: 20%
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 20%; 
+    font-size: 8rem;
+    background-image: url("../images/calculator.jpeg");
+    border: 2rem solid #13CBB5;
+    background-position: 25% 75%;
+}
+
+#pastel-puzzels {
+    height: 15%;
+    width: 20%
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 20%; 
+    font-size: 8rem;
+    background-image: url("../images/puzzels.jpg");
+    border: 2rem solid #13CBB5;
+    background-position: 25% 75%;
+}
+
+#run-buddy {
+    height: 15%;
+    width: 20%
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 20%; 
+    font-size: 8rem;
+    background-image: url("../images/programming.jpg");
+    border: 2rem solid #13CBB5;
+    background-position: 25% 75%;
+}
